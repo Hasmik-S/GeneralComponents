@@ -1,0 +1,47 @@
+{
+  "categorizedComponents": [
+    {
+      "components": [
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/Button",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/Button/Button.js"
+            },
+            "presets": [
+              {
+                "path": "src/Button/presets/0-default.jsx"
+              }
+            ]
+          },
+          "name": "Button",
+          "presets": [
+            {
+              "elements": {
+                "button": {
+                  "name": "Button",
+                  "props": {}
+                }
+              },
+              "name": "default",
+              "rootId": "button"
+            }
+          ],
+          "properties": [],
+          "wrappers": []
+        }
+      ],
+      "name": "General"
+    }
+  ],
+  "name": "GeneralComponents",
+  "vcs": {
+    "branchName": "master",
+    "commitHash": "7986bb97a79278c4472a578c02d7f6d0e5d8655a"
+  }
+}

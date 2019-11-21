@@ -1,0 +1,29 @@
+{
+  "name": "generalcomponents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "uxpin:experiment": "uxpin-merge --webpack-config ./webpack.config.js --wrapper ./src/UXPinWrapper.js --disable-tunneling"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "@uxpin/merge-cli": "^2.4.1",
+    "babel-loader": "^8.0.6",
+    "eslint-loader": "^3.0.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "source-map-loader": "^0.2.4",
+    "styled-components": "^4.4.1",
+    "url-loader": "^2.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
